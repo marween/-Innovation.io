@@ -1,14 +1,14 @@
 
 /*
   Import the common theme.
-  */
-  @import "./_shared/scss/theme.scss";
+*/
+@import "./_shared/scss/theme.scss";
 
 /*
   If you need some CSS for any reason you can put it here.
-  */
+*/
 
-  #carouselExampleIndicators img{
+#carouselExampleIndicators img {
    object-fit: cover; 
    height: 80vh;
    width:100%;
@@ -47,7 +47,7 @@ h2::after {
     -o-transform: rotateY(0deg);
     -ms-transform: rotateY(0deg);
     transform: rotateY(0deg);
-    border-radius: .25rem;
+    border-radius: .25rem;25
 }
 
 .image-flip:hover .frontside,
@@ -111,7 +111,8 @@ h2::after {
     transition: 1s;
     transform-style: preserve-3d;
 }
-.frontside .card .card-body img, #quote img{
+.frontside .card .card-body img, 
+   #quote img{
     width: 120px;
     height: 120px;
     object-fit:cover;
